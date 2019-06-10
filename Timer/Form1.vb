@@ -1,5 +1,4 @@
 ﻿Public Class Form1
-
     Dim hora As Integer
     Dim contador_horas As Integer
     Dim contador_minutos As Integer
@@ -59,5 +58,4 @@
         timer_segundos.Text = 0
         tic = 0
     End Sub
-
 End Class

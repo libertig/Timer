@@ -43,7 +43,7 @@ Partial Class Form1
         '
         Me.lbl_horas.AutoSize = True
         Me.lbl_horas.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_horas.Location = New System.Drawing.Point(57, 25)
+        Me.lbl_horas.Location = New System.Drawing.Point(55, 23)
         Me.lbl_horas.Name = "lbl_horas"
         Me.lbl_horas.Size = New System.Drawing.Size(103, 37)
         Me.lbl_horas.TabIndex = 0
@@ -53,7 +53,7 @@ Partial Class Form1
         '
         Me.lbl_minutos.AutoSize = True
         Me.lbl_minutos.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_minutos.Location = New System.Drawing.Point(235, 25)
+        Me.lbl_minutos.Location = New System.Drawing.Point(233, 23)
         Me.lbl_minutos.Name = "lbl_minutos"
         Me.lbl_minutos.Size = New System.Drawing.Size(129, 37)
         Me.lbl_minutos.TabIndex = 1
@@ -63,7 +63,7 @@ Partial Class Form1
         '
         Me.lbl_segundos.AutoSize = True
         Me.lbl_segundos.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_segundos.Location = New System.Drawing.Point(434, 25)
+        Me.lbl_segundos.Location = New System.Drawing.Point(432, 23)
         Me.lbl_segundos.Name = "lbl_segundos"
         Me.lbl_segundos.Size = New System.Drawing.Size(161, 37)
         Me.lbl_segundos.TabIndex = 2
@@ -73,7 +73,7 @@ Partial Class Form1
         '
         Me.timer_horas.AutoSize = True
         Me.timer_horas.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.timer_horas.Location = New System.Drawing.Point(12, 25)
+        Me.timer_horas.Location = New System.Drawing.Point(10, 23)
         Me.timer_horas.Name = "timer_horas"
         Me.timer_horas.Size = New System.Drawing.Size(35, 37)
         Me.timer_horas.TabIndex = 3
@@ -83,7 +83,7 @@ Partial Class Form1
         '
         Me.timer_minutos.AutoSize = True
         Me.timer_minutos.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.timer_minutos.Location = New System.Drawing.Point(190, 25)
+        Me.timer_minutos.Location = New System.Drawing.Point(188, 23)
         Me.timer_minutos.Name = "timer_minutos"
         Me.timer_minutos.Size = New System.Drawing.Size(35, 37)
         Me.timer_minutos.TabIndex = 4
@@ -93,7 +93,7 @@ Partial Class Form1
         '
         Me.timer_segundos.AutoSize = True
         Me.timer_segundos.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.timer_segundos.Location = New System.Drawing.Point(389, 25)
+        Me.timer_segundos.Location = New System.Drawing.Point(387, 23)
         Me.timer_segundos.Name = "timer_segundos"
         Me.timer_segundos.Size = New System.Drawing.Size(35, 37)
         Me.timer_segundos.TabIndex = 5
@@ -104,7 +104,7 @@ Partial Class Form1
         Me.btn_pause.BackgroundImage = Global.Timer.My.Resources.Resources.iconfinder_icon_pause_211871
         Me.btn_pause.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.btn_pause.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_pause.Location = New System.Drawing.Point(451, 195)
+        Me.btn_pause.Location = New System.Drawing.Point(453, 102)
         Me.btn_pause.Name = "btn_pause"
         Me.btn_pause.Size = New System.Drawing.Size(62, 51)
         Me.btn_pause.TabIndex = 8
@@ -115,7 +115,7 @@ Partial Class Form1
         Me.btn_stop.BackgroundImage = Global.Timer.My.Resources.Resources.iconfinder_ic_stop_48px_352144
         Me.btn_stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.btn_stop.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_stop.Location = New System.Drawing.Point(529, 195)
+        Me.btn_stop.Location = New System.Drawing.Point(531, 102)
         Me.btn_stop.Name = "btn_stop"
         Me.btn_stop.Size = New System.Drawing.Size(62, 51)
         Me.btn_stop.TabIndex = 7
@@ -126,7 +126,7 @@ Partial Class Form1
         Me.btn_play.BackgroundImage = Global.Timer.My.Resources.Resources.iconfinder_ic_play_arrow_48px_352072__1_
         Me.btn_play.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.btn_play.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_play.Location = New System.Drawing.Point(373, 195)
+        Me.btn_play.Location = New System.Drawing.Point(375, 102)
         Me.btn_play.Name = "btn_play"
         Me.btn_play.Size = New System.Drawing.Size(62, 51)
         Me.btn_play.TabIndex = 6
@@ -136,7 +136,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(603, 258)
+        Me.ClientSize = New System.Drawing.Size(603, 177)
         Me.Controls.Add(Me.btn_pause)
         Me.Controls.Add(Me.btn_stop)
         Me.Controls.Add(Me.btn_play)
